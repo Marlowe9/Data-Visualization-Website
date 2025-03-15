@@ -103,7 +103,7 @@ socialMedia.then(function(data) {
 
 // Prepare your data and load the data again.
 // This data should contains three columns, platform, post type and average number of likes.
-const socialMediaAvg = d3.csv("/Users/jacobmarlowe/Desktop/untitled folder/socialMediaAvg.csv");
+const socialMediaAvg = d3.csv("socialMediaAvg.csv");
 
 socialMediaAvg.then(function(data) {
   // Convert string values to numbers
@@ -203,7 +203,7 @@ socialMediaAvg.then(function(data) {
 
 // Prepare your data and load the data again.
 // This data should contains two columns, date (3/1-3/7) and average number of likes.
-const socialMediaTime = d3.csv("/Users/jacobmarlowe/Desktop/untitled folder/socialMediaTime.csv");
+const socialMediaTime = d3.csv("socialMediaTime.csv");
 
 socialMediaTime.then(function(data) {
   // Convert string values to numbers
